@@ -857,7 +857,7 @@
          point="org.eclipse.emf.ecore.generated_package">
       <package
             class="urn.UrnPackage"
-            genModel="archive:platform:/plugin/ArchDoc/jUCMNav.jar!/seg/jUCMNav/emf/URN.genmodel"
+            genModel="archive:platform:/plugin/seg.jUCMNav/jUCMNav.jar!/seg/jUCMNav/emf/URN.genmodel"
             uri="http:///urn.ecore">
       </package>
    </extension>
@@ -873,7 +873,7 @@
          point="org.eclipse.emf.ecore.generated_package">
       <package
             class="urncore.UrncorePackage"
-            genModel="archive:platform:/plugin/ArchDoc/jUCMNav.jar!/seg/jUCMNav/emf/URN.genmodel"
+            genModel="archive:platform:/plugin/seg.jUCMNav/jUCMNav.jar!/seg/jUCMNav/emf/URN.genmodel"
             uri="http:///urncore.ecore">
       </package>
    </extension>
@@ -881,7 +881,7 @@
          point="org.eclipse.emf.ecore.generated_package">
       <package
             class="grl.GrlPackage"
-            genModel="archive:platform:/plugin/ArchDoc/jUCMNav.jar!/seg/jUCMNav/emf/URN.genmodel"
+            genModel="archive:platform:/plugin/seg.jUCMNav/jUCMNav.jar!/seg/jUCMNav/emf/URN.genmodel"
             uri="http:///grl.ecore">
       </package>
    </extension>
@@ -898,7 +898,7 @@
          point="org.eclipse.emf.ecore.generated_package">
       <package
             class="ucm.UcmPackage"
-            genModel="archive:platform:/plugin/ArchDoc/jUCMNav.jar!/seg/jUCMNav/emf/URN.genmodel"
+            genModel="archive:platform:/plugin/seg.jUCMNav/jUCMNav.jar!/seg/jUCMNav/emf/URN.genmodel"
             uri="http:///ucm.ecore">
       </package>
    </extension>
@@ -954,7 +954,7 @@
          point="org.eclipse.emf.ecore.generated_package">
       <package
             class="ucmscenarios.UcmscenariosPackage"
-            genModel="archive:platform:/plugin/ArchDoc/jUCMNav.jar!/seg/jUCMNav/emf/UCMscenarios.genmodel"
+            genModel="archive:platform:/plugin/seg.jUCMNav/jUCMNav.jar!/seg/jUCMNav/emf/UCMscenarios.genmodel"
             uri="http:///ucmscenarios.ecore">
       </package>
    </extension>
