@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="RelationshipType" table="relationship_types">
+  <id name="id" column="RELATIONSHIP_ID">
+  </id>
+  <property name="name" type="string" column="RELATIONSHIP_TYPE_NAME"/>
+  <property name="description" type="string" column="RELATIONSHIP_TYPE_DESC"/>
+  <property name="domainID" type="int" column="DOMAIN_ID"/>
+ </class>
+</hibernate-mapping>

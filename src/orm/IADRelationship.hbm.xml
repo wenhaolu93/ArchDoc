@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="IADRelationship" table="iad_relationships">
+  <id name="id" column="IAD_RELATIONSHIP_ID">
+  </id>
+  <property name="fromIADid" type="int" column="FROM_IAD_TO_CELL_ASSIGNMENT_ID"/>
+  <property name="toIADid" type="int" column="TO_IAD_TO_CELL_ASSIGNMENT_ID"/>
+  <property name="relationTypeID" type="int" column="RELATIONSHIP_TYPE_ID"/>
+ </class>
+</hibernate-mapping>

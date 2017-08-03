@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="IAD" table="iads">
+  <id name="id" column="IAD_ID">
+  </id>
+  <property name="name" type="string" column="IAD_NAME"/>
+  <property name="type" type="string" column="IAD_TYPE"/>
+  <property name="domainID" type="int" column="DOMAIN_ID"/>
+  <property name="KADid" type="int" column="KAD_ID"/>
+ </class>
+</hibernate-mapping>

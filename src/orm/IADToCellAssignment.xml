@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="IADToCellAssignment" table="iad_to_cell_assignments">
+  <id name="id" column="IAD_CELL_ASSIGNMENT_ID">
+  </id>
+  <property name="IADid" type="int" column="IAD_ID"/>
+  <property name="cellID" type="int" column="CELL_ID"/>
+  <property name="areaID" type="int" column="AREA_ID"/>
+ </class>
+</hibernate-mapping>

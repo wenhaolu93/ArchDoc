@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="Areas" table="areas">
+  <id name="id" column="AREA_ID">
+  </id>
+  <property name="parentID" type="int" column="AREA_PARENT_ID"/>
+  <property name="orderNo" type="string" column="AREA_ORDER_NO"/>
+  <property name="depthLevel" type="int" column="AREA_DEPTH_LEVEL"/>
+  <property name="dimenID" type="int" column="DIMENSION_ID"/>
+  <property name="areaName" type="string" column="AREA_NAME"/>
+ </class>
+</hibernate-mapping>

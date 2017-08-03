@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="Cells" table="cells">
+  <id name="id" column="CELL_ID">
+  </id>
+  <property name="areaID" type="int" column="AREA_ID"/>
+ </class>
+</hibernate-mapping>
